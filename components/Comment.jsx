@@ -29,7 +29,7 @@ const Comment = ({slug}) => {
             {comments.map((comment, index) => (
               <div className='comment-content'>
                 <p>
-                  <span>{comment.name}</span>
+                  <span key={index.name}>{comment.name}</span>
                   {' '}
                   on
                   {' '}
