@@ -41,14 +41,16 @@ const PostDescription = ({post}) => {
       case 'image':
         return(
           <div className='desc-img-default'>
-            <img
-            key={index}
-            alt={obj.title}
-            height={obj.height}
-            width={obj.width}
-            src={obj.src}
-            style={obj.style}
-          />
+            <picture>
+              <img
+              key={index}
+              alt={obj.title}
+              height={obj.height}
+              width={obj.width}
+              src={obj.src}
+              style={obj.style}
+              />
+          </picture>
          </div>
         );
         default:
@@ -63,20 +65,24 @@ const PostDescription = ({post}) => {
       <div className='post-desc1'>
       
       <div className='post-desc-img'>
-        <img 
-            src={post.featured.url} 
-            alt={post.title}
-            className='post-desc-img1'
-        />
+        <picture>
+          <img 
+              src={post.featured.url} 
+              alt={post.title}
+              className='post-desc-img1'
+          />
+        </picture>
       </div>
 
       <div className='post-desc-author'>
         <div className='post-desc-author1'>
+          <picture>
           <img 
               src={post.author.photo.url} 
               alt={post.author.name}
               className='post-desc-author-img'
           />
+          </picture>
           <p>{post.author.name}</p>
         </div>
       </div>

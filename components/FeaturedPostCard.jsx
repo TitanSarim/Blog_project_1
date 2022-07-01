@@ -37,13 +37,14 @@ const [FeaturedPosts, setFeaturedPosts] = useState([]);
 
         <div key={post.title} className='featured-posts-align2'>
           <div>
+            <picture>
               <img 
                   src={post.featured.url} 
                   alt={post.title}  
                   // style={style}  
                   className='featuredPosts-img'
               />
-              
+            </picture>
          </div>
 
           <div className='featured-posts-content'>

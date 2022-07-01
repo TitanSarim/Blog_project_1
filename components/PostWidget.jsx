@@ -38,12 +38,14 @@ const PostWidget = ({categories, slug}) => {
 
           <div key={post.title} className='post-widget-content2'>
             <div>
+              <picture>
                 <img 
                     src={post.featured.url} 
                     alt={post.title} 
                     // style={style}
                     className='post-widget-img'
                 />
+              </picture>
            </div>
 
             <div className='post-widget-text'>

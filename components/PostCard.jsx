@@ -13,11 +13,13 @@ const PostCard = ({post}) => {
         {/* image */}
 
         <div className='card-img'>
-            <img src={post.featured.url} 
-                 alt={post.title}
-                 style={style }
-                 className="card-img-2"
-                 />
+            <picture>
+                <img src={post.featured.url} 
+                    alt={post.title}
+                    style={style }
+                    className="card-img-2"
+                />
+            </picture>     
         </div>
 
     {/* heres hydration error */}
@@ -29,11 +31,13 @@ const PostCard = ({post}) => {
 
         <div className="author">
             <div className='author1'>
-                <img 
-                    src={post.author.photo.url} 
-                    alt={post.author.name}
-                    className='author-img'
-                />
+                <picture>
+                    <img 
+                        src={post.author.photo.url} 
+                        alt={post.author.name}
+                        className='author-img'
+                    />
+                </picture>
                 <p>{post.author.name}</p>
             </div>
         </div>
