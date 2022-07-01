@@ -1649,6 +1649,14 @@ a {
     display: flex;
   }
 
+  .head-categories-main{
+    position: relative;
+    z-index: 98;
+  }
+  .index-mobile-responsive{
+    z-index: 95;
+  }
+
   .navbar{
     position: relative;
     display: flex;
@@ -1663,6 +1671,7 @@ a {
 
   .index-mobile-responsive{
     position: relative;
+    z-index: 95;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1828,8 +1837,13 @@ a {
 ============================================ */
 @media screen and (max-width: 1366px){
   .index-cate{
+    z-index: 98;
     width: 100%;
   }
+  .head-categories-main{
+    z-index: 98;
+  }
+
   .categories-slug-header{
     width: 100%;
   }
