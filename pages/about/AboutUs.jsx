@@ -31,6 +31,7 @@ const AboutUs = () => {
         <div className='aboutus-page-iamge-section'>
           <Image
             src={sarim}
+            alt={sarim}
             height='500px'
             width='500px'
             className='aboutus-page-iamge-section-image'

@@ -11,7 +11,6 @@ export default function Home({posts}) {
       {/* blog name and favcon */}
       <Head>
         <title>JS-Blog</title>
-        <link rel="stylesheet" href="/" />
       </Head>
 
       <div className='index'>

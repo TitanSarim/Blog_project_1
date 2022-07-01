@@ -26,6 +26,7 @@ const Footer = () => {
          <a> 
           <Image
             src={logo} 
+            alt={logo}
             width={300}
             height={100}   
           />

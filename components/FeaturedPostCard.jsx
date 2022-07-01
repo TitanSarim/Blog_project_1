@@ -1,10 +1,7 @@
 import React,{useState, useEffect} from 'react';
 import moment from 'moment';
 import Link from 'next/link';
-import Image from 'next/image';
 import {MdOutlineFeaturedVideo} from 'react-icons/md'
-
-import Trending from '../assets/Trending.svg'
 import { getFeaturedPosts} from '../services';
 
 const FeaturedPostCard = ({categories, slug}) => {
