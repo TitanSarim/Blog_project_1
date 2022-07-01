@@ -43,7 +43,7 @@ const ContactUs = () => {
 
               <div className='contactus-form-content-info-first'>
                 <h1>Contact Information</h1>
-                <p>We're open for any suggestion or just to have a chat</p>
+                <p>We are open for any suggestion or just to have a chat</p>
               </div>
 
               <div className='contactus-form-content-info-icons'>

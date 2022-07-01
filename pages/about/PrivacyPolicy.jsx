@@ -16,7 +16,7 @@ const PrivacyPolicy = () => {
             <ul>
               <li>We may offer free and open source software, source code, brief lessons, forthcoming Merns Stack upgrades and technologies, as well as a problem-solving approach on this website.</li>
               <li>All levels of developers, including beginners, intermediate users, and experts, may learn from and explore this website. They can even copy code from it.</li>
-              <li>Attention, The user and visitor must get our permission in order to duplicate our website's code and material and use it on their own websites under their own names.</li>
+              <li>Attention, The user and visitor must get our permission in order to duplicate our websites code and material and use it on their own websites under their own names.</li>
               <li>This is a 0.0.01 version of the website, and we continuously work to improve the theme, user interface, and user experience in order to improve the user experience and strengthen the relationship between the author and the user.</li>
             </ul>
           </div>
